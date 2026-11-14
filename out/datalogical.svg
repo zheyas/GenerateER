@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="880" viewBox="0 0 1750 880">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polyline points="940.0,720.0 875.0,720.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="875.0,720.0 810.0,720.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="875.0" y="714.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="middle" fill="#7b8794">CASCADE</text>
+<polyline points="1550.0,252.0 1550.0,313.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="1550.0,313.0 1550.0,374.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="1550.0" y1="268.0" x2="1541.0" y2="252.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1550.0" y1="268.0" x2="1550.0" y2="252.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1550.0" y1="268.0" x2="1559.0" y2="252.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1558.0" y="318.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="start" fill="#7b8794">RESTRICT</text>
+<polyline points="360.0,601.0 425.0,601.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="425.0,601.0 490.0,601.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="376.0" y1="601.0" x2="360.0" y2="610.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="376.0" y1="601.0" x2="360.0" y2="601.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="376.0" y1="601.0" x2="360.0" y2="592.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="425.0" y="594.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="middle" fill="#7b8794">CASCADE</text>
+<polyline points="540.0,186.0 540.0,241.0 477.5,241.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="477.5,241.0 360.0,241.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="540.0" y1="202.0" x2="531.0" y2="186.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="540.0" y1="202.0" x2="540.0" y2="186.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="540.0" y1="202.0" x2="549.0" y2="186.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="372.0" y="234.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="start" fill="#7b8794">CASCADE</text>
+<polyline points="810.0,125.0 1100.0,125.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="1100.0,125.0 1390.0,125.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="826.0" y1="125.0" x2="810.0" y2="134.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="826.0" y1="125.0" x2="810.0" y2="125.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="826.0" y1="125.0" x2="810.0" y2="116.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1100.0" y="118.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="middle" fill="#7b8794">CASCADE</text>
+<polyline points="700.0,186.0 700.0,373.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="700.0,373.0 700.0,560.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="700.0" y1="202.0" x2="691.0" y2="186.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="700.0" y1="202.0" x2="700.0" y2="186.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="700.0" y1="202.0" x2="709.0" y2="186.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="708.0" y="390.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="start" fill="#7b8794">CASCADE</text>
+<polyline points="1260.0,415.0 1325.0,415.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="1325.0,415.0 1390.0,415.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="1276.0" y1="415.0" x2="1260.0" y2="424.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1276.0" y1="415.0" x2="1260.0" y2="415.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1276.0" y1="415.0" x2="1260.0" y2="406.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1325.0" y="432.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="middle" fill="#7b8794">NO ACTION</text>
+<polyline points="1000.0,476.0 1000.0,601.0 967.5,601.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="967.5,601.0 810.0,601.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="1000.0" y1="492.0" x2="991.0" y2="476.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1000.0" y1="492.0" x2="1000.0" y2="476.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1000.0" y1="492.0" x2="1009.0" y2="476.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1008.0" y="540.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="start" fill="#7b8794">NO ACTION</text>
+<rect x="490" y="40" width="320" height="146" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="490" y="40" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="650.0" y="60.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">user_order_address</text>
+<line x1="542.0" y1="70.0" x2="542.0" y2="186.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="85.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK</text>
+<text x="550.0" y="85.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">id</text>
+<text x="658.0" y="85.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">INTEGER</text>
+<text x="800.0" y="85.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="490.0" y1="92.0" x2="810.0" y2="92.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="107.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">FK,U</text>
+<text x="550.0" y="107.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">user_id</text>
+<text x="658.0" y="107.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="107.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="490.0" y1="114.0" x2="810.0" y2="114.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">FK,U</text>
+<text x="550.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">order_id</text>
+<text x="658.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="490.0" y1="136.0" x2="810.0" y2="136.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">FK,U</text>
+<text x="550.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">address_id</text>
+<text x="658.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="490.0" y1="158.0" x2="810.0" y2="158.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">created_at</text>
+<text x="658.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<rect x="1390" y="84" width="320" height="168" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="1390" y="84" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="1550.0" y="104.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">orders</text>
+<line x1="1442.0" y1="114.0" x2="1442.0" y2="252.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK</text>
+<text x="1450.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">id</text>
+<text x="1558.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="129.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="136.0" x2="1710.0" y2="136.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">FK</text>
+<text x="1450.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">product_id</text>
+<text x="1558.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="151.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="158.0" x2="1710.0" y2="158.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">quantity</text>
+<text x="1558.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">INTEGER</text>
+<text x="1700.0" y="173.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="180.0" x2="1710.0" y2="180.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">order_date</text>
+<text x="1558.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="202.0" x2="1710.0" y2="202.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="217.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="217.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">total_price</text>
+<text x="1558.0" y="217.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">REAL</text>
+<text x="1700.0" y="217.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="224.0" x2="1710.0" y2="224.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="239.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="239.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">status</text>
+<text x="1558.0" y="239.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="239.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<rect x="40" y="200" width="320" height="212" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="40" y="200" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="200.0" y="220.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">addresses</text>
+<line x1="92.0" y1="230.0" x2="92.0" y2="412.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="245.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK</text>
+<text x="100.0" y="245.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">id</text>
+<text x="208.0" y="245.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="245.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="252.0" x2="360.0" y2="252.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="267.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="267.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">country</text>
+<text x="208.0" y="267.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="267.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="274.0" x2="360.0" y2="274.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="289.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="289.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">city_type</text>
+<text x="208.0" y="289.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="289.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="296.0" x2="360.0" y2="296.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="311.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="311.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">city</text>
+<text x="208.0" y="311.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="311.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="318.0" x2="360.0" y2="318.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="333.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="333.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">street_type</text>
+<text x="208.0" y="333.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="333.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="340.0" x2="360.0" y2="340.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="355.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="355.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">street</text>
+<text x="208.0" y="355.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="355.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="362.0" x2="360.0" y2="362.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="377.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="377.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">house_number</text>
+<text x="208.0" y="377.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="377.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="384.0" x2="360.0" y2="384.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="399.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="399.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">apartment</text>
+<text x="208.0" y="399.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="399.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<rect x="940" y="330" width="320" height="146" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="940" y="330" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="1100.0" y="350.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">cart</text>
+<line x1="992.0" y1="360.0" x2="992.0" y2="476.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="375.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK</text>
+<text x="1000.0" y="375.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">id</text>
+<text x="1108.0" y="375.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">INTEGER</text>
+<text x="1250.0" y="375.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="382.0" x2="1260.0" y2="382.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="397.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">FK,U</text>
+<text x="1000.0" y="397.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">user_id</text>
+<text x="1108.0" y="397.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="397.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="404.0" x2="1260.0" y2="404.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">FK,U</text>
+<text x="1000.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">product_id</text>
+<text x="1108.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="426.0" x2="1260.0" y2="426.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1000.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">quantity</text>
+<text x="1108.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">INTEGER</text>
+<text x="1250.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="448.0" x2="1260.0" y2="448.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1000.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">created_at</text>
+<text x="1108.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<rect x="1390" y="374" width="320" height="212" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="1390" y="374" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="1550.0" y="394.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">products</text>
+<line x1="1442.0" y1="404.0" x2="1442.0" y2="586.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK</text>
+<text x="1450.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">id</text>
+<text x="1558.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="419.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="426.0" x2="1710.0" y2="426.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">name</text>
+<text x="1558.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="448.0" x2="1710.0" y2="448.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">description</text>
+<text x="1558.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="463.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="1390.0" y1="470.0" x2="1710.0" y2="470.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="485.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="485.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">price</text>
+<text x="1558.0" y="485.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">REAL</text>
+<text x="1700.0" y="485.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="492.0" x2="1710.0" y2="492.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="507.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="507.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">stock</text>
+<text x="1558.0" y="507.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">INTEGER</text>
+<text x="1700.0" y="507.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="514.0" x2="1710.0" y2="514.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="529.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="529.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">weight</text>
+<text x="1558.0" y="529.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">REAL</text>
+<text x="1700.0" y="529.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="1390.0" y1="536.0" x2="1710.0" y2="536.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="551.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="551.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">image</text>
+<text x="1558.0" y="551.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="551.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="1390.0" y1="558.0" x2="1710.0" y2="558.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="1416.0" y="573.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1450.0" y="573.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">category</text>
+<text x="1558.0" y="573.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1700.0" y="573.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<rect x="490" y="560" width="320" height="256" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="490" y="560" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="650.0" y="580.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">users</text>
+<line x1="542.0" y1="590.0" x2="542.0" y2="816.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK</text>
+<text x="550.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">id</text>
+<text x="658.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="490.0" y1="612.0" x2="810.0" y2="612.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">first_name</text>
+<text x="658.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="490.0" y1="634.0" x2="810.0" y2="634.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">last_name</text>
+<text x="658.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="490.0" y1="656.0" x2="810.0" y2="656.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">middle_name</text>
+<text x="658.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="490.0" y1="678.0" x2="810.0" y2="678.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="693.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="693.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">birthdate</text>
+<text x="658.0" y="693.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="693.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="490.0" y1="700.0" x2="810.0" y2="700.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="715.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="715.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">phone</text>
+<text x="658.0" y="715.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="715.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="490.0" y1="722.0" x2="810.0" y2="722.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="737.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="737.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">email</text>
+<text x="658.0" y="737.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="737.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="490.0" y1="744.0" x2="810.0" y2="744.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="759.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="759.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">vip</text>
+<text x="658.0" y="759.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">INTEGER</text>
+<text x="800.0" y="759.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="490.0" y1="766.0" x2="810.0" y2="766.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="781.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="781.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">photo</text>
+<text x="658.0" y="781.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="781.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="490.0" y1="788.0" x2="810.0" y2="788.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="516.0" y="803.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="550.0" y="803.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">login</text>
+<text x="658.0" y="803.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="800.0" y="803.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<rect x="40" y="538" width="320" height="146" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="40" y="538" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="200.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">user_sessions</text>
+<line x1="92.0" y1="568.0" x2="92.0" y2="684.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="583.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK</text>
+<text x="100.0" y="583.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">session_id</text>
+<text x="208.0" y="583.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="583.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="590.0" x2="360.0" y2="590.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">FK</text>
+<text x="100.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">user_id</text>
+<text x="208.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="605.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="612.0" x2="360.0" y2="612.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">created_at</text>
+<text x="208.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="627.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="40.0" y1="634.0" x2="360.0" y2="634.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">expires_at</text>
+<text x="208.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="649.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="40.0" y1="656.0" x2="360.0" y2="656.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="66.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="100.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">last_activity</text>
+<text x="208.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="350.0" y="671.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<rect x="940" y="679" width="320" height="168" fill="#ffffff" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="940" y="679" width="320" height="30" fill="#e4e9ef" stroke="#1f2933" stroke-width="1.4"/>
+<text x="1100.0" y="699.0" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">user_credentials</text>
+<line x1="992.0" y1="709.0" x2="992.0" y2="847.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="724.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#9a3412">PK,FK</text>
+<text x="1000.0" y="724.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">user_id</text>
+<text x="1108.0" y="724.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="724.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="731.0" x2="1260.0" y2="731.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="746.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d">U</text>
+<text x="1000.0" y="746.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">login</text>
+<text x="1108.0" y="746.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="746.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="753.0" x2="1260.0" y2="753.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="768.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1000.0" y="768.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">password_hash</text>
+<text x="1108.0" y="768.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="768.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="775.0" x2="1260.0" y2="775.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="790.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1000.0" y="790.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">role</text>
+<text x="1108.0" y="790.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="790.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#1f2933">NOT NULL</text>
+<line x1="940.0" y1="797.0" x2="1260.0" y2="797.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="812.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1000.0" y="812.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">created_at</text>
+<text x="1108.0" y="812.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="812.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<line x1="940.0" y1="819.0" x2="1260.0" y2="819.0" stroke="#d9dee4" stroke-width="1"/>
+<text x="966.0" y="834.5" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#52606d"></text>
+<text x="1000.0" y="834.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">updated_at</text>
+<text x="1108.0" y="834.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#52606d">TEXT</text>
+<text x="1250.0" y="834.5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" font-style="normal" text-anchor="end" fill="#9aa5b1">NULL</text>
+<rect x="40" y="722" width="320" height="118" fill="#f8fafc" stroke="#d9dee4"/>
+<text x="52.0" y="744.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">Условные обозначения</text>
+<text x="52.0" y="764.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">PK — первичный ключ;  FK — внешний ключ</text>
+<text x="52.0" y="781.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">U — входит в ограничение UNIQUE</text>
+<text x="52.0" y="798.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">сплошная половина — FK обязателен (NOT NULL)</text>
+<text x="52.0" y="815.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">пунктир — у родителя может не быть строк</text>
+<text x="52.0" y="832.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">подпись на линии — правило ON DELETE</text>
+</svg>

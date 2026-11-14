@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="790" viewBox="0 0 1520 790">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polyline points="680.0,72.0 960.0,72.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="960.0,72.0 1240.0,72.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="696.0" y1="72.0" x2="680.0" y2="81.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="696.0" y1="72.0" x2="680.0" y2="72.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="696.0" y1="72.0" x2="680.0" y2="63.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="704.0" y1="62.0" x2="704.0" y2="82.0" stroke="#1f2933" stroke-width="1.8"/>
+<text x="710.0" y="65.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">относится к</text>
+<text x="1210.0" y="65.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="end" fill="#52606d">имеет</text>
+<polyline points="480.0,104.0 480.0,170.0 323.0,170.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="323.0,170.0 160.0,170.0 160.0,230.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="480.0" y1="120.0" x2="471.0" y2="104.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="480.0" y1="120.0" x2="480.0" y2="104.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="480.0" y1="120.0" x2="489.0" y2="104.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="490.0" y1="128.0" x2="470.0" y2="128.0" stroke="#1f2933" stroke-width="1.8"/>
+<text x="472.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="end" fill="#52606d">указывает</text>
+<text x="168.0" y="212.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">указан в</text>
+<polyline points="590.0,104.0 590.0,302.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="590.0,302.0 590.0,500.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="590.0" y1="120.0" x2="581.0" y2="104.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="590.0" y1="120.0" x2="590.0" y2="104.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="590.0" y1="120.0" x2="599.0" y2="104.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="600.0" y1="128.0" x2="580.0" y2="128.0" stroke="#1f2933" stroke-width="1.8"/>
+<text x="598.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">выполнено</text>
+<text x="598.0" y="464.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">выполняет</text>
+<polyline points="1360.0,180.0 1360.0,235.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="1360.0,235.0 1360.0,290.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="1360.0" y1="196.0" x2="1351.0" y2="180.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1360.0" y1="196.0" x2="1360.0" y2="180.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1360.0" y1="196.0" x2="1369.0" y2="180.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1368.0" y="224.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">оформлен на</text>
+<text x="1352.0" y="272.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="end" fill="#52606d">заказан в</text>
+<polyline points="1080.0,315.0 1160.0,315.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="1160.0,315.0 1240.0,315.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="1096.0" y1="315.0" x2="1080.0" y2="324.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1096.0" y1="315.0" x2="1080.0" y2="315.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1096.0" y1="315.0" x2="1080.0" y2="306.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1104.0" y1="305.0" x2="1104.0" y2="325.0" stroke="#1f2933" stroke-width="1.8"/>
+<text x="1110.0" y="308.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">содержит</text>
+<text x="1210.0" y="332.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="end" fill="#52606d">входит в</text>
+<polyline points="900.0,353.0 900.0,560.0 893.5,560.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="893.5,560.0 680.0,560.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="900.0" y1="369.0" x2="891.0" y2="353.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="900.0" y1="369.0" x2="900.0" y2="353.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="900.0" y1="369.0" x2="909.0" y2="353.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="910.0" y1="377.0" x2="890.0" y2="377.0" stroke="#1f2933" stroke-width="1.8"/>
+<text x="908.0" y="397.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">добавлена</text>
+<text x="710.0" y="553.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">добавляет</text>
+<polyline points="280.0,620.0 360.0,620.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="360.0,620.0 440.0,620.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="296.0" y1="620.0" x2="280.0" y2="629.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="296.0" y1="620.0" x2="280.0" y2="620.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="296.0" y1="620.0" x2="280.0" y2="611.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="310.0" y="613.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">открыта</text>
+<text x="428.0" y="637.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="end" fill="#52606d">открывает</text>
+<polyline points="840.0,670.0 760.0,670.0" fill="none" stroke="#1f2933" stroke-width="1.5"/>
+<polyline points="760.0,670.0 680.0,670.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="816.0" y1="680.0" x2="816.0" y2="660.0" stroke="#1f2933" stroke-width="1.8"/>
+<text x="810.0" y="687.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="end" fill="#52606d">принадлежит</text>
+<text x="692.0" y="663.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#52606d">имеет</text>
+<rect x="440" y="40" width="240" height="64" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="560.0" y="65.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">ОФОРМЛЕНИЕ ЗАКАЗА</text>
+<text x="458.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="472.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">дата оформления</text>
+<rect x="1240" y="40" width="240" height="140" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="1360.0" y="65.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">ЗАКАЗ</text>
+<text x="1258.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">#</text>
+<text x="1272.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">номер заказа</text>
+<text x="1258.0" y="107.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1272.0" y="107.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">количество</text>
+<text x="1258.0" y="126.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1272.0" y="126.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">дата заказа</text>
+<text x="1258.0" y="145.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1272.0" y="145.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">общая стоимость</text>
+<text x="1258.0" y="164.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="1272.0" y="164.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">статус</text>
+<rect x="40" y="230" width="240" height="197" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="160.0" y="255.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">АДРЕС</text>
+<text x="58.0" y="278.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">#</text>
+<text x="72.0" y="278.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">код адреса</text>
+<text x="58.0" y="297.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="72.0" y="297.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">страна</text>
+<text x="58.0" y="316.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="72.0" y="316.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">тип населённого пункта</text>
+<text x="58.0" y="335.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="72.0" y="335.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">населённый пункт</text>
+<text x="58.0" y="354.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="72.0" y="354.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">тип улицы</text>
+<text x="58.0" y="373.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="72.0" y="373.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">улица</text>
+<text x="58.0" y="392.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="72.0" y="392.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">номер дома</text>
+<text x="58.0" y="411.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="72.0" y="411.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">квартира</text>
+<rect x="840" y="270" width="240" height="83" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="960.0" y="295.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">ПОЗИЦИЯ КОРЗИНЫ</text>
+<text x="858.0" y="318.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="872.0" y="318.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">количество</text>
+<text x="858.0" y="337.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="872.0" y="337.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">дата добавления</text>
+<rect x="1240" y="290" width="240" height="197" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="1360.0" y="315.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">ТОВАР</text>
+<text x="1258.0" y="338.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">#</text>
+<text x="1272.0" y="338.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">код товара</text>
+<text x="1258.0" y="357.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1272.0" y="357.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">название</text>
+<text x="1258.0" y="376.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="1272.0" y="376.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">описание</text>
+<text x="1258.0" y="395.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1272.0" y="395.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">цена</text>
+<text x="1258.0" y="414.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1272.0" y="414.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">остаток на складе</text>
+<text x="1258.0" y="433.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1272.0" y="433.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">вес</text>
+<text x="1258.0" y="452.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="1272.0" y="452.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">изображение</text>
+<text x="1258.0" y="471.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="1272.0" y="471.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">категория</text>
+<rect x="440" y="500" width="240" height="216" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="560.0" y="525.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">ПОЛЬЗОВАТЕЛЬ</text>
+<text x="458.0" y="548.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">#</text>
+<text x="472.0" y="548.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">код пользователя</text>
+<text x="458.0" y="567.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="472.0" y="567.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">фамилия</text>
+<text x="458.0" y="586.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="472.0" y="586.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">имя</text>
+<text x="458.0" y="605.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="472.0" y="605.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">отчество</text>
+<text x="458.0" y="624.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="472.0" y="624.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">дата рождения</text>
+<text x="458.0" y="643.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="472.0" y="643.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">телефон</text>
+<text x="458.0" y="662.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="472.0" y="662.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">e-mail</text>
+<text x="458.0" y="681.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="472.0" y="681.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">VIP-статус</text>
+<text x="458.0" y="700.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="472.0" y="700.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">фото</text>
+<rect x="40" y="560" width="240" height="121" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="160.0" y="585.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">СЕССИЯ</text>
+<text x="58.0" y="608.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">#</text>
+<text x="72.0" y="608.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">идентификатор сессии</text>
+<text x="58.0" y="627.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="72.0" y="627.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">дата создания</text>
+<text x="58.0" y="646.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="72.0" y="646.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">срок действия</text>
+<text x="58.0" y="665.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="72.0" y="665.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">последняя активность</text>
+<rect x="840" y="600" width="240" height="140" rx="16" ry="16" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="960.0" y="625.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">УЧЁТНАЯ ЗАПИСЬ</text>
+<text x="858.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="872.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">логин (уникальный)</text>
+<text x="858.0" y="667.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="872.0" y="667.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">хеш пароля</text>
+<text x="858.0" y="686.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="872.0" y="686.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">роль</text>
+<text x="858.0" y="705.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="872.0" y="705.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">дата создания</text>
+<text x="858.0" y="724.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="872.0" y="724.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">дата изменения</text>
+<rect x="1240" y="540" width="240" height="214" fill="#f8fafc" stroke="#d9dee4"/>
+<text x="1252.0" y="562.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" text-anchor="start" fill="#1f2933">Условные обозначения</text>
+<text x="1260.0" y="584.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">#</text>
+<text x="1274.0" y="584.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">атрибут UID</text>
+<text x="1260.0" y="602.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">*</text>
+<text x="1274.0" y="602.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">обязательный атрибут</text>
+<text x="1260.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1f2933">o</text>
+<text x="1274.0" y="620.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">необязательный атрибут</text>
+<line x1="1252.0" y1="644.0" x2="1302.0" y2="644.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1312.0" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">должен (обязательно)</text>
+<polyline points="1252.0,666.0 1302.0,666.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="1312.0" y="670.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">может (необязательно)</text>
+<line x1="1252.0" y1="690.0" x2="1302.0" y2="690.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1268.0" y1="690.0" x2="1252.0" y2="699.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1268.0" y1="690.0" x2="1252.0" y2="681.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1312.0" y="694.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">один или несколько</text>
+<line x1="1252.0" y1="712.0" x2="1302.0" y2="712.0" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1312.0" y="716.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">один и только один</text>
+<line x1="1252.0" y1="736.0" x2="1302.0" y2="736.0" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="1276.0" y1="727.0" x2="1276.0" y2="745.0" stroke="#1f2933" stroke-width="1.8"/>
+<text x="1312.0" y="740.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1f2933">связь входит в UID</text>
+</svg>

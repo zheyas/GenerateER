@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ER Editor</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect x=%271%27 y=%272%27 width=%276%27 height=%275%27 rx=%271%27 fill=%27%232f6fed%27/%3E%3Crect x=%279%27 y=%279%27 width=%276%27 height=%275%27 rx=%271%27 fill=%27%23279054%27/%3E%3Cpath d=%27M7 4.5h3v4.5%27 fill=%27none%27 stroke=%27%231f2933%27/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="toolbar" role="toolbar"></div>
+  <div id="main">
+    <div id="canvas-wrap">
+      <div id="welcome" hidden></div>
+      <svg id="canvas" xmlns="http://www.w3.org/2000/svg" tabindex="0" aria-label="Диаграмма"></svg>
+      <input id="inline" hidden spellcheck="false" autocomplete="off">
+    </div>
+    <aside id="panel"></aside>
+  </div>
+  <div id="status">
+    <span id="status-text"></span>
+    <span class="zoom">
+      <button class="btn small" id="zoom-out" title="Отдалить">−</button>
+      <button class="btn small" id="zoom-pct" title="Масштаб 100% (Ctrl+0)">100%</button>
+      <button class="btn small" id="zoom-in" title="Приблизить">+</button>
+      <button class="btn small" id="zoom-fit" title="Показать всю диаграмму (Ctrl+1)">Вписать</button>
+    </span>
+  </div>
+  <div id="toast" role="status"></div>
+  <div id="modal-root"></div>
+  <input type="file" id="file" hidden accept=".db,.sqlite,.sqlite3,.json,.erd">
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
