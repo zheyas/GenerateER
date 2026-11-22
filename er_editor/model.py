@@ -433,6 +433,8 @@ class Project:
         export_scale (int): множитель разрешения PNG при экспорте (1, 2 или 3).
         grid (bool): показывать сетку и привязывать перетаскиваемые объекты к ней.
         fill_sample (bool): при создании базы данных добавлять в каждую таблицу случайные записи.
+        guard (bool): при создании базы данных добавлять защитные триггеры, отклоняющие в текстовых столбцах
+            значения с типичными признаками SQL-инъекции (см. :func:`er_editor.dbgen.guard_sql`).
         normal_form (int): выбранная для проверки нормальная форма: 1, 2 или 3.
     """
 
@@ -441,6 +443,7 @@ class Project:
     export_scale: int = 2
     grid: bool = True
     fill_sample: bool = False
+    guard: bool = True
     normal_form: int = 3
 
     def to_json(self) -> str:
@@ -455,6 +458,7 @@ class Project:
             "export_scale": self.export_scale,
             "grid": self.grid,
             "fill_sample": self.fill_sample,
+            "guard": self.guard,
             "normal_form": self.normal_form,
             "diagrams": {k: d.to_dict() for k, d in self.diagrams.items()},
         }, ensure_ascii=False)
@@ -494,6 +498,7 @@ class Project:
             export_scale=d.get("export_scale", 2),
             grid=d.get("grid", True),
             fill_sample=d.get("fill_sample", False),
+            guard=d.get("guard", True),
             normal_form=d.get("normal_form", 3),
             diagrams={k: Diagram.from_dict(v) for k, v in d["diagrams"].items()},
         )

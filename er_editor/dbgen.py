@@ -78,12 +78,14 @@ class DbReport:
         tables (int): число созданных таблиц.
         rows (dict[str, int]): сколько записей добавлено в каждую таблицу (пусто без данных).
         warnings (list[str]): предупреждения (например, не удалось добавить какую-то запись).
+        triggers (int): сколько защитных триггеров добавлено (0 — защита выключена или нет текстовых столбцов).
     """
 
     path: str
     tables: int
     rows: dict[str, int] = field(default_factory=dict)
     warnings: list[str] = field(default_factory=list)
+    triggers: int = 0
 
     @property
     def total_rows(self) -> int:
@@ -414,6 +416,130 @@ def link_rule_hint(child: Node, link: Link) -> str:
     if rule == "SET DEFAULT" and any(not r.default.strip() for r in rows):
         return "SET DEFAULT: у столбца внешнего ключа не задан DEFAULT (подставится NULL). Задайте значение, которое есть в родительской таблице."
     return ""
+
+
+_QUOTES = ("'", '"')
+_COMPARISONS = ("=", ">", "<", " like ", " in (", " between ", " is null", " exists")
+_STACKED = ("; drop table ", "; drop view ", "; drop index ", "; drop trigger ", "; delete from ", "; insert into ", "; alter table ",
+            "; create table ", "; create trigger ", "; create view ", "; attach database ", "; pragma ")
+_MARKERS = ("/**/", "/*!", "sqlite_master", "sqlite_schema", "load_extension(", "randomblob(", "or sleep(", "and sleep(", "or benchmark(",
+            "and benchmark(", "xp_cmdshell", "information_schema.", "<script", "' or (select", "' and (select", "'||(select", "' || (select")
+
+
+def guard_condition() -> str:
+    """Собирает условие защитного триггера: значение ``v`` (нормализованное) похоже на SQL-инъекцию.
+
+    Одно слово не считается признаком: фразы вроде «he said 'no' or 'maybe'», «credit union selection», «wait; drop by»
+    или «time.sleep(5)» проходят. Условие срабатывает только на сочетаниях, которые в обычном тексте почти не встречаются:
+
+    * кавычка + ``or`` / ``and`` / ``having`` + знак сравнения (``=``, ``>``, ``<``, ``like``, ``in (``…) где-либо в значении;
+    * ``; drop table``, ``; delete from``, ``; insert into``, ``; update … set``, ``; select … from`` и другие стековые операторы;
+    * ``union … select`` с продолжением (``from``, число, ``null``, ``*``, ``(``);
+    * тавтологии без кавычки (`` or 1=1``, `` and 1=1``, `` or 'a'='a``);
+    * кавычка с комментарием в конце значения (``admin'--``, ``x' #``), ``'; --``;
+    * ``' order by 1``; конструкции ``/**/``, ``/*!``, ``sqlite_master``, ``load_extension(``, ``or sleep(``, ``<script`` и т. п.
+
+    Returns:
+        str: SQL-выражение над подзапросным столбцом ``v`` (в нижнем регистре, без табуляций, пробелы схлопнуты).
+    """
+    def has(*lits: str) -> str:
+        """Условие «в ``v`` есть хотя бы одна из подстрок».
+
+        Args:
+            *lits (str): искомые подстроки.
+
+        Returns:
+            str: SQL-выражение.
+        """
+        return "(" + " OR ".join(f"instr(v, {_lit(x)}) > 0" for x in lits) + ")"
+
+    def glob(*pats: str) -> str:
+        """Условие «``v`` соответствует хотя бы одному шаблону GLOB» (``*`` — любые символы, ``?`` — один).
+
+        Args:
+            *pats (str): шаблоны GLOB.
+
+        Returns:
+            str: SQL-выражение.
+        """
+        return "(" + " OR ".join(f"v GLOB {_lit(x)}" for x in pats) + ")"
+
+    breaks = [f"{q}{sp}{kw}{after}" for q in _QUOTES for sp in ("", " ") for kw in ("or", "and", "having") for after in (" ", q)]
+    parts = [
+        f"({has(*breaks)} AND {has(*_COMPARISONS)})",
+        has(*_STACKED),
+        glob("*; update *set *", "*; select *from *"),
+        has("'; --", "';--", '"; --', '";--'),
+        glob("*union *select *from *", "*union *select [0-9]*", "*union *select null*", "*union *select [*]*", "*union *select (*",
+             "*union *select @*", "*union *select '*"),
+        glob("* or [0-9]=[0-9]*", "* and [0-9]=[0-9]*", "* or [0-9] = [0-9]*", "* and [0-9] = [0-9]*", "* or '?'='?*", "* and '?'='?*",
+             '* or "?"="?*', '* and "?"="?*'),
+        glob("*'--", "*' --", "*'-- ", '*"--', '*" --', "*'#", "*' #", "*' order by [0-9]*", '*" order by [0-9]*'),
+        has(*_MARKERS),
+    ]
+    return " OR ".join(parts)
+
+
+def is_text_type(type_name: str) -> bool:
+    """Определяет, хранит ли столбец текст по правилам аффинности SQLite (или тип не указан).
+
+    Args:
+        type_name (str): объявленный тип столбца.
+
+    Returns:
+        bool: ``True`` для типов со словами ``CHAR``, ``CLOB``, ``TEXT`` и для столбца без типа.
+    """
+    t = type_name.upper()
+    return not t.strip() or any(w in t for w in ("CHAR", "CLOB", "TEXT"))
+
+
+def _lit(text: str) -> str:
+    """Записывает строку как SQL-литерал в апострофах.
+
+    Args:
+        text (str): произвольный текст.
+
+    Returns:
+        str: литерал с удвоенными апострофами.
+    """
+    return "'" + text.replace("'", "''") + "'"
+
+
+def guard_sql(tables: list[Table]) -> list[str]:
+    """Формирует защитные триггеры ``BEFORE INSERT`` и ``BEFORE UPDATE`` для текстовых столбцов таблиц.
+
+    Триггер приводит значение к нижнему регистру, заменяет табуляции и переводы строк пробелами, схлопывает
+    повторы пробелов (до 256 подряд) и отклоняет запись (``RAISE(ABORT)``), если значение удовлетворяет
+    :func:`guard_condition` (сочетания признаков, а не отдельные слова). Это последний рубеж «в глубину»: он ловит
+    типичные полезные нагрузки, но не заменяет параметризованные запросы в приложении; обойти эвристику
+    изобретательной нагрузкой возможно, а редкий безобидный текст, в точности похожий на атаку, может быть отклонён.
+
+    Args:
+        tables (list[Table]): схема.
+
+    Returns:
+        list[str]: операторы ``CREATE TRIGGER`` (по два на таблицу с текстовыми столбцами).
+    """
+    out: list[str] = []
+    cond = guard_condition()
+    for t in tables:
+        cols = [c.name for c in t.cols if is_text_type(c.type)]
+        if not cols:
+            continue
+        body = []
+        for c in cols:
+            norm = f"lower(NEW.{quote(c)})"
+            for a, b in (("char(9)", "' '"), ("char(10)", "' '"), ("char(13)", "' '")):
+                norm = f"replace({norm}, {a}, {b})"
+            for _ in range(8):
+                norm = f"replace({norm}, '  ', ' ')"
+            # LIMIT 1 запрещает SQLite «разворачивать» подзапрос: иначе нормализация значения вычислялась бы заново в каждом условии
+            msg = _lit(f"Защита от инъекций: недопустимое значение в столбце {t.name}.{c}")
+            body.append(f"    SELECT RAISE(ABORT, {msg}) FROM (SELECT {norm} AS v LIMIT 1) WHERE {cond};")
+        text = "\n".join(body)
+        out.append(f"CREATE TRIGGER {quote('er_guard_ins_' + t.name)} BEFORE INSERT ON {quote(t.name)}\nBEGIN\n{text}\nEND")
+        out.append(f"CREATE TRIGGER {quote('er_guard_upd_' + t.name)} BEFORE UPDATE OF {_cols(cols)} ON {quote(t.name)}\nBEGIN\n{text}\nEND")
+    return out
 
 
 def _cols(names: list[str]) -> str:
@@ -800,7 +926,7 @@ def generate_rows(tables: list[Table], n: int, rng: random.Random) -> tuple[dict
 
 # ───────────────────────── создание файла ─────────────────────────
 
-def create_database(path: str, tables: list[Table], sample_rows: int = 0, seed: Optional[int] = None) -> DbReport:
+def create_database(path: str, tables: list[Table], sample_rows: int = 0, seed: Optional[int] = None, guard: bool = False) -> DbReport:
     """Создаёт файл базы данных SQLite по схеме и (по желанию) наполняет его случайными записями.
 
     База собирается во временном файле и подменяет ``path`` только после успешного завершения,
@@ -813,6 +939,8 @@ def create_database(path: str, tables: list[Table], sample_rows: int = 0, seed: 
         sample_rows (int): сколько случайных записей добавить в каждую таблицу; 0 — только схема.
         seed (Optional[int]): начальное значение генератора случайных чисел; ``None`` — каждый
             раз новые данные.
+        guard (bool): добавить защитные триггеры от SQL-инъекций (:func:`guard_sql`); создаются после
+            случайных данных, поэтому не мешают их вставке.
 
     Returns:
         DbReport: итог: число таблиц, число добавленных записей и предупреждения.
@@ -845,6 +973,10 @@ def create_database(path: str, tables: list[Table], sample_rows: int = 0, seed: 
                     except sqlite3.Error as exc:
                         report.warnings.append(f"«{t.name}»: запись пропущена ({exc})")
                 report.rows[t.name] = count
+        if guard:
+            for sql in guard_sql(tables):
+                conn.execute(sql)
+                report.triggers += 1
         conn.commit()
         bad = conn.execute("PRAGMA foreign_key_check").fetchall()
         if bad:

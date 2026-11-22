@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-SUITES = ["test_normalform.py", "test_normalform_random.py", "test_describe.py", "test_fdmine.py", "test_ondelete.py", "test_editor_ui.py", "test_web_api.py", "test_web_static.py"]
+SUITES = ["test_normalform.py", "test_normalform_random.py", "test_describe.py", "test_fdmine.py", "test_ondelete.py", "test_guard.py", "test_experiments.py", "test_editor_ui.py", "test_web_api.py", "test_web_static.py"]
 
 if __name__ == "__main__":
     failed = 0

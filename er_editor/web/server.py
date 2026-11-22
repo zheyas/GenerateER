@@ -468,7 +468,7 @@ def make_database(project: Project, sample: bool) -> tuple[bytes, dbgen.DbReport
 
     Args:
         project (Project): проект.
-        sample (bool): добавлять ли в каждую таблицу случайные записи.
+        sample (bool): добавлять ли в каждую таблицу случайные записи. Защитные триггеры добавляются, если ``project.guard``.
 
     Returns:
         tuple[bytes, dbgen.DbReport]: содержимое файла ``.db`` и отчёт о создании.
@@ -480,7 +480,7 @@ def make_database(project: Project, sample: bool) -> tuple[bytes, dbgen.DbReport
     with tempfile.TemporaryDirectory(prefix="er_db_") as tmp:
         path = os.path.join(tmp, "out.db")
         try:
-            report = dbgen.create_database(path, tables, dbgen.SAMPLE_ROWS if sample else 0)
+            report = dbgen.create_database(path, tables, dbgen.SAMPLE_ROWS if sample else 0, guard=project.guard)
         except (sqlite3.Error, OSError) as exc:
             raise ApiError(500, f"Не удалось создать базу данных: {exc}") from exc
         with open(path, "rb") as fh:
@@ -496,7 +496,7 @@ def report_header(report: dbgen.DbReport) -> str:
     Returns:
         str: ASCII-строка; браузер разбирает её через ``decodeURIComponent`` и ``JSON.parse``.
     """
-    return quote(json.dumps({"tables": report.tables, "rows": report.total_rows, "warnings": report.warnings},
+    return quote(json.dumps({"tables": report.tables, "rows": report.total_rows, "warnings": report.warnings, "triggers": report.triggers},
                             ensure_ascii=False))
 
 
