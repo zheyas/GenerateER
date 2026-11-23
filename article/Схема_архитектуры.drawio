@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net" version="24.0.0">
+  <diagram id="arch" name="Архитектура анализатора">
+    <mxGraphModel dx="1040" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="in1" value="Путь к исходному коду приложения" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef2f7;strokeColor=#33506e;fontFamily=Times New Roman;fontSize=13;" vertex="1" parent="1"><mxGeometry x="60" y="20" width="230" height="52" as="geometry"/></mxCell>
+        <mxCell id="in2" value="Адрес запущенного приложения" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef2f7;strokeColor=#33506e;fontFamily=Times New Roman;fontSize=13;" vertex="1" parent="1"><mxGeometry x="750" y="20" width="230" height="52" as="geometry"/></mxCell>
+
+        <mxCell id="routes" value="&lt;b&gt;Извлечение маршрутов&lt;/b&gt;&lt;br&gt;из кода (Flask/FastAPI/Express/Django) и OpenAPI/Swagger" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf3ea;strokeColor=#3a6b3a;fontFamily=Times New Roman;fontSize=13;" vertex="1" parent="1"><mxGeometry x="300" y="110" width="440" height="66" as="geometry"/></mxCell>
+        <mxCell id="model" value="&lt;b&gt;Единая модель маршрутов&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf3ea;strokeColor=#3a6b3a;fontFamily=Times New Roman;fontSize=13;" vertex="1" parent="1"><mxGeometry x="360" y="198" width="320" height="42" as="geometry"/></mxCell>
+
+        <mxCell id="sast" value="&lt;b&gt;Статический анализ (SAST)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f6f2ea;strokeColor=#8a6d3b;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1"><mxGeometry x="40" y="300" width="400" height="210" as="geometry"/></mxCell>
+        <mxCell id="s1" value="Сигнатуры, секреты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="60" y="342" width="175" height="40" as="geometry"/></mxCell>
+        <mxCell id="s2" value="Энтропия ключей" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="245" y="342" width="175" height="40" as="geometry"/></mxCell>
+        <mxCell id="s3" value="Зависимости (OSV)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="60" y="392" width="175" height="40" as="geometry"/></mxCell>
+        <mxCell id="s4" value="Заголовки, CORS, debug" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="245" y="392" width="175" height="40" as="geometry"/></mxCell>
+        <mxCell id="s5" value="Taint-анализ (AST: Python, JS/TS, PHP; межфайловый; построчный запасной)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="60" y="442" width="360" height="52" as="geometry"/></mxCell>
+
+        <mxCell id="dast" value="&lt;b&gt;Динамический анализ (DAST)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f3edf5;strokeColor=#6a3d7a;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1"><mxGeometry x="600" y="300" width="400" height="210" as="geometry"/></mxCell>
+        <mxCell id="d1" value="Обход, посев маршрутов, вход (cookie / токен)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="620" y="342" width="360" height="40" as="geometry"/></mxCell>
+        <mxCell id="d2" value="Активные пробы: SQLi, XSS, команды, путь, SSRF, SSTI, XXE, IDOR, подмена оплаты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="620" y="392" width="360" height="52" as="geometry"/></mxCell>
+        <mxCell id="d3" value="Mass assignment, enumeration, excessive data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1"><mxGeometry x="620" y="454" width="360" height="40" as="geometry"/></mxCell>
+
+        <mxCell id="out" value="&lt;b&gt;Единый список находок&lt;/b&gt;&lt;br&gt;правило · место в коде / адрес · CWE · БДУ ФСТЭК · подтверждено / потенциально" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdeeee;strokeColor=#9b3b3b;fontFamily=Times New Roman;fontSize=13;" vertex="1" parent="1"><mxGeometry x="230" y="560" width="580" height="72" as="geometry"/></mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#333333;" edge="1" parent="1" source="in1" target="routes"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#333333;" edge="1" parent="1" source="in2" target="routes"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#333333;" edge="1" parent="1" source="routes" target="model"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#333333;exitX=0;exitY=0.5;" edge="1" parent="1" source="model" target="sast"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#333333;exitX=1;exitY=0.5;" edge="1" parent="1" source="model" target="dast"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#333333;" edge="1" parent="1" source="sast" target="out"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#333333;" edge="1" parent="1" source="dast" target="out"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

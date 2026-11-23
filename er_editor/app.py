@@ -409,7 +409,7 @@ class App:
         """
         proj = Project.from_json(snap)
         proj.grid, proj.export_scale = self.project.grid, self.project.export_scale
-        proj.fill_sample = self.project.fill_sample
+        proj.fill_sample, proj.guard = self.project.fill_sample, self.project.guard
         proj.normal_form = self.project.normal_form
         self.project = proj
         s = self.sel
@@ -503,7 +503,7 @@ class App:
             self.say(f"Не удалось прочитать БД: {exc}", 6)
             return
         proj.grid, proj.export_scale = self.project.grid, self.project.export_scale
-        proj.fill_sample = self.project.fill_sample
+        proj.fill_sample, proj.guard = self.project.fill_sample, self.project.guard
         proj.normal_form = self.project.normal_form
         self.project = proj
         self.project_path = None
@@ -1085,6 +1085,10 @@ class App:
 
     # ───────────────────────── база данных из диаграммы ─────────────────────────
 
+    def toggle_guard(self) -> None:
+        """Включает или выключает защитные триггеры от SQL-инъекций при создании базы данных."""
+        self.project.guard = not self.project.guard
+
     def toggle_fill_sample(self) -> None:
         """Включает / выключает заполнение таблиц случайными записями при создании базы данных."""
         self.project.fill_sample = not self.project.fill_sample
@@ -1278,7 +1282,7 @@ class App:
         sample = dbgen.SAMPLE_ROWS if self.project.fill_sample else 0
         try:
             tables = dbgen.diagram_to_tables(self.project.diagrams[KIND_DATA])
-            report = dbgen.create_database(path, tables, sample)
+            report = dbgen.create_database(path, tables, sample, guard=self.project.guard)
         except dbgen.SchemaError as exc:
             self.show_problems(exc.problems)
             return None
@@ -1288,6 +1292,8 @@ class App:
         msg = f"База данных создана: {os.path.basename(path)} — таблиц: {report.tables}"
         if sample:
             msg += f", записей: {report.total_rows}"
+        if report.triggers:
+            msg += f", защитных триггеров: {report.triggers}"
         self.say(msg, 6)
         if report.warnings:
             self.show_problems(report.warnings, "База создана, но есть предупреждения")
@@ -2533,7 +2539,9 @@ class App:
              ToolItem("БД и модели", self.download_bundle_dialog, enabled=has_tables,
                       tip="Файл SQLite + обе модели в PNG + отчёт о проверке нормальной формы (Cmd+Shift+B)"),
              ToolItem(f"{dbgen.SAMPLE_ROWS} случайных записей", self.toggle_fill_sample, self.project.fill_sample, True,
-                      f"Заполнить каждую таблицу {dbgen.SAMPLE_ROWS} случайными записями при создании базы", check=True)],
+                      f"Заполнить каждую таблицу {dbgen.SAMPLE_ROWS} случайными записями при создании базы", check=True),
+             ToolItem("Защитные триггеры", self.toggle_guard, self.project.guard, True,
+                      "Добавить в базу триггеры, отклоняющие в текстовых столбцах значения с признаками SQL-инъекции", check=True)],
             [ToolItem("Отмена", self.undo, enabled=bool(self.undo_stack), tip="Отменить действие (Cmd+Z)"),
              ToolItem("Повтор", self.redo, enabled=bool(self.redo_stack), tip="Вернуть отменённое (Cmd+Shift+Z)"),
              ToolItem("?", lambda: setattr(self, "help", True), tip="Краткая справка по клавишам (F1)"),
@@ -2944,6 +2952,8 @@ class App:
         self.p_header("База данных")
         self.p_choice("Тест. данные", [(f"{dbgen.SAMPLE_ROWS} записей", p.fill_sample, partial(setattr, p, "fill_sample", True)),
                                        ("Нет", not p.fill_sample, partial(setattr, p, "fill_sample", False))])
+        self.p_choice("Защита БД", [("Триггеры", p.guard, partial(setattr, p, "guard", True)),
+                                    ("Нет", not p.guard, partial(setattr, p, "guard", False))])
         has_tables = bool(self.project.diagrams[KIND_DATA].nodes)
         self.p_buttons([("Скачать БД (.db)", self.download_db_dialog, has_tables, False),
                         ("БД и модели", self.download_bundle_dialog, has_tables, False)])

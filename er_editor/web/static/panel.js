@@ -88,6 +88,8 @@ function diagramPanel() {
   } else out.push(buttons([{ text: 'Построить по таблицам', onclick: C.rebuildInfoDialog, enabled: DATA().nodes.length > 0 }]));
   out.push(gap(6), header('База данных'));
   out.push(choice('Тест. данные', [{ text: `${S.meta.sample_rows} записей`, active: p.fill_sample, onclick: () => p.fill_sample || C.toggleSample() }, { text: 'Нет', active: !p.fill_sample, onclick: () => p.fill_sample && C.toggleSample() }]));
+  out.push(choice('Защита БД', [{ text: 'Триггеры', active: C.guardOn(), onclick: () => C.guardOn() || C.toggleGuard() }, { text: 'Нет', active: !C.guardOn(), onclick: () => C.guardOn() && C.toggleGuard() }]));
+  out.push(note('Триггеры отклоняют в текстовых столбцах значения с сочетаниями признаков SQL-инъекции (кавычка + or + «=», union select, ; drop table, admin\'-- и т. п.); обычный текст проходит. Это последний рубеж: защищайтесь параметризованными запросами.', 'small'));
   const has = DATA().nodes.length > 0;
   out.push(buttons([{ text: 'Скачать БД (.db)', onclick: C.downloadDb, enabled: has }, { text: 'БД и модели', onclick: C.downloadBundle, enabled: has }]));
   out.push(note('База строится по даталогической диаграмме: таблицы, типы, PK, FK, UNIQUE, ON DELETE. «БД и модели» — ZIP с базой, обеими диаграммами в PNG и отчётом о нормальной форме.', 'small'));

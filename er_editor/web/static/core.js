@@ -748,10 +748,13 @@ async function downloadNow(bundle) {
     let info = {};
     try { info = JSON.parse(decodeURIComponent(res.headers.get('X-Db-Report') || '{}')); } catch (e) { /* без отчёта */ }
     say(bundle ? 'Комплект сохранён: база, обе модели (PNG) и отчёт о нормальной форме (в ZIP)' :
-      `База данных создана: таблиц — ${info.tables}${S.project.fill_sample ? `, записей: ${info.rows}` : ''}`, 7);
+      `База данных создана: таблиц — ${info.tables}${S.project.fill_sample ? `, записей: ${info.rows}` : ''}${info.triggers ? `, защитных триггеров: ${info.triggers}` : ''}`, 7);
     if (info.warnings && info.warnings.length) showProblems(info.warnings, 'База создана, но есть предупреждения');
   } catch (e) { reportError(e); } finally { setBusy(''); }
 }
 export const downloadDb = () => gateExport(() => downloadNow(false));
 export const downloadBundle = () => gateExport(() => downloadNow(true));
 export function toggleSample() { mutate(() => { S.project.fill_sample = !S.project.fill_sample; }); }
+// Защитные триггеры от SQL-инъекций в создаваемой базе (по умолчанию включены, в старых проектах поля нет).
+export const guardOn = () => S.project.guard !== false;
+export function toggleGuard() { mutate(() => { S.project.guard = !guardOn(); }); }
